@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/govinda/Documents/BookingTesting/BookingTesting/src/test/java(failed)">
+    <classes>
+      <class name="Suite2.TestFindAttractions">
+        <methods>
+          <include name="testAttractionsPage"/>
+        </methods>
+      </class> <!-- Suite2.TestFindAttractions -->
+      <class name="Suite2.flight">
+        <methods>
+          <include name="testFlightDetails"/>
+        </methods>
+      </class> <!-- Suite2.flight -->
+    </classes>
+  </test> <!-- C:/Users/govinda/Documents/BookingTesting/BookingTesting/src/test/java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

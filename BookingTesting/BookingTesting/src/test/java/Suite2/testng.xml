@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/govinda/Documents/BookingTesting/BookingTesting/src/test/java">
+        <classes>
+            <class name="Suite1.TestSearchFiltering">
+                <methods>
+                    <include name="searchFiltering"/>
+                </methods>
+            </class>
+            <class name="Suite1.PlacesOfInterest">
+                <methods>
+                    <include name="POI"/>
+                </methods>
+            </class>
+            <class name="Suite1.TestBookHotel">
+                <methods>
+                    <include name="testHotelBooking"/>
+                </methods>
+            </class>
+            <class name="Suite1.TestTopBarLinks">
+                <methods>
+                    <include name="TestLinks"/>
+                </methods>
+            </class>
+            <class name="Suite2.TestFindAttractions">
+                <methods>
+                    <include name="testAttractionsPage"/>
+                </methods>
+            </class>
+            <class name="Suite2.flight">
+                <methods>
+                    <include name="testFlightDetails"/>
+                </methods>
+            </class>
+            <class name="Suite2.Taxis">
+                <methods>
+                    <include name="taxis"/>
+                </methods>
+            </class>
+            <class name="Suite2.feedback">
+                <methods>
+                    <include name="feedbackDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
